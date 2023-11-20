@@ -253,7 +253,7 @@ btn-color-1:hover, .btn-color-2{
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
-    width: 222px;
+    width: 150px;
 }
 .section-container{
     gap: 4rem;
@@ -303,4 +303,105 @@ article  .icon{
     float: inline-end;
     width: 550px;
     margin-right: 1rem;
+}
+
+/*Education section*/
+#education{
+    position: relative;
+}
+
+#education .section__text__p1{
+    margin-top: 10rem;
+}
+
+#education .details-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    float: none;
+    width: auto;
+    margin-left: 10rem;
+
+}
+
+/*Project section*/
+
+#project {
+    position: relative;
+}
+
+.color-container{
+    border-color: rgb(163, 163, 163);
+    background: rgb(250, 250, 250);
+}
+.project-img{
+    height: 205px;
+    width: 300px;
+    border: none;
+    border-radius: 2rem;
+    padding-top: 5px;
+}
+
+
+.project-title{
+    margin: 1rem;
+    color: black;
+}
+
+.project-btn{
+    color: black;
+    border-color: rgb(red, green, blue);
+}
+.btn-container{
+    margin-bottom: 5px;
+}
+
+#project .about-containers{
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;/*when screen size changes the content wrap around to fit in container size*/
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-around;
+    
+}
+#project .details-container{
+    margin-right: 2rem;
+    width: 550px;
+}
+
+/*Contact Section*/
+#contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+.contact-info-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    background: rgb(250, 250, 250);
+    padding: 0.5rem;
+    width: 300px;
+    margin-left: 36%;
+    gap: 1rem;
+    font-size: larger;
+}
+.contact-icon{
+    cursor: default;
+}
+
+/*Footer Section*/
+footer{
+    height: 26vh;
+    margin:0 1rem;
+}
+
+footer p{
+    text-align: center;
 }

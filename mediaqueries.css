@@ -1,3 +1,14 @@
+@media screen and (max-width: 1400px) {
+    #profile {
+        height: 83vh;
+        margin-bottom: 6rem;
+
+    }
+    .about-containers{
+        flex-wrap: wrap;
+    }
+    
+}
 @media screen and (max-width: 1200px) {
     #desktop-nav{
         display: none;
@@ -5,5 +16,77 @@
      #hamburger-nav{
         display: flex;
      }
-    
+
+     #experience, .experience-detaails-container{
+        margin-top: 2rem;
+     }
+    #profille, .section-container {
+        display: block;
+    }
+    .profile-pic{
+        width: 275px;
+        height: 275px;
+    }
+    .section__text{
+        margin: 1rem;
+
+    }
+    .arrow {
+        display: none;
+    }
+    section, .section-container{
+        height: fit-content;
+    }
+    .section{
+        margin: 0 5%;
+    }
+    .section__pic-container{
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+    .about-containers {
+        margin-top: 0;
+    }
+    .about-details-container{
+        margin-top: 12rem;
+    }
+    .details-container{
+        margin-bottom: 1rem;
+    }
+   #experience .details-container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    float: left;
+    margin-left: -6rem;
+    margin-bottom: 4rem;
+   }
+   #education .section__text__p1{
+    margin-top: -5rem;
+    }
+
+   #education .details-container{
+    justify-content: center;
+    align-content: center;
+    float: left;
+    width: 450px;
+    margin-left: -10rem;
+}
+#education .title{
+    margin-left: -3rem;
+}
+#project .article-container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    gap: 10px;
+}
+#project img{
+    width: 350px;
+    height: 350px;
+}
+
+
 }
