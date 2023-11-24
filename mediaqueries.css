@@ -9,84 +9,161 @@
     }
     
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 600px) {
     #desktop-nav{
         display: none;
     }
      #hamburger-nav{
         display: flex;
      }
-
-     #experience, .experience-detaails-container{
-        margin-top: 2rem;
+    
+     #profile{
+        display: flex;
+        flex-direction: column;
+        margin-top: 8rem;
+        margin-left: 1.5rem;
      }
-    #profille, .section-container {
+     #profille, .section-container {
         display: block;
     }
-    .profile-pic{
+     .profile-pic{
         width: 275px;
         height: 275px;
+        margin-bottom: -6rem;
     }
-    .section__text{
-        margin: 1rem;
+    #about .details-container{
+        margin-right: 2rem;
+    }
+    #about .title{
+        font-size: 1rem;
+        margin-left: -4rem;
+        text-align: justify;
+        width: max-content;
+    }
+    #about .about-pic{
+        width: 350px;
+        height: 350px;
+       margin-left: -11rem;
+    }
+   
+    #about .about-details-container{
+        margin-top: 10rem;
+    }
 
+    #about .details-container{
+        margin-bottom: 1rem;
     }
+    #about .about-containers {
+        margin-left: -5rem;
+    }
+    #about .text-container{
+        font-size: 14px;
+        width: max-content;
+        margin-left: -11rem; 
+    }
+
+     #experience{
+        margin-top: 25rem;
+     }
+     #experience .section__text__p1{
+        margin-left: -3rem;
+        width: max-content;
+     } 
+     #experience .title{
+        font-size: 1rem;
+        margin-left: -3rem;
+        text-align: justify;
+        width: max-content;
+    }
+    #experience .details-container{
+        margin-bottom: 1rem;
+    }
+
+    #experience .details-container{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        float: left;
+        margin-left: -10rem;
+       }
+    
     .arrow {
         display: none;
     }
-    section, .section-container{
-        height: fit-content;
-    }
-    .section{
-        margin: 0 5%;
-    }
+   
+    
     .section__pic-container{
         width: 275px;
         height: 275px;
         margin: 0 auto 2rem;
     }
-    .about-containers {
-        margin-top: 0;
-    }
-    .about-details-container{
-        margin-top: 12rem;
-    }
-    .details-container{
-        margin-bottom: 1rem;
-    }
-   #experience .details-container{
+    
+  #education{
+    margin-top: 73rem;
+  }
+  #education .section__text__p1{
+    margin-left: -3rem;
+  }
+#education .title{
+    font-size: 2rem;
+    margin-left: -7rem;
+}
+   #education .details-container{
     display: flex;
     flex-direction: column;
-    width: 400px;
-    float: left;
-    margin-left: -6rem;
-    margin-bottom: 4rem;
-   }
-   #education .section__text__p1{
-    margin-top: -5rem;
-    }
-
-   #education .details-container{
     justify-content: center;
-    align-content: center;
-    float: left;
-    width: 450px;
-    margin-left: -10rem;
+    width: 350px;
+    margin-left: -11rem;
+    margin-top: 0.5rem;
 }
-#education .title{
+
+#project{
+    margin-top: 2rem;
+}
+
+#project .section__text__p1{
     margin-left: -3rem;
+    width: max-content;
+  }
+#project .title{
+    font-size: 2rem;
+    margin-left: -4rem;
 }
+
 #project .article-container{
     display: flex;
     flex-direction: column;
-    width: 400px;
-    height: 400px;
-    gap: 10px;
-}
-#project img{
     width: 350px;
     height: 350px;
+    gap: 10px;
 }
-
-
+#project .details-container{
+    margin-right: -1rem;
+}
+#project img{
+    width: 330px;
+    height: 330px;
+    padding: 10px; 
+}
+#contact{
+    margin-top: 60rem;
+    width: max-content;
+    margin-left: -0.5rem;
+}
+#contact .title{
+    font-size: 2rem;
+}
+#contact .contact-info-container{
+    margin-left: 12px;
+}
+footer li{
+    font-size: 12px;
+}
+footer{
+    height: 33vh;
+    margin-top: -3rem;
+    padding: -5px;
+    font-size: 14px;
+}
 }

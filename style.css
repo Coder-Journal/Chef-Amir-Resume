@@ -136,9 +136,9 @@ section{
     gap: 5rem;
     height: 80vh;
 }
-.section__pic-container{
+/*.section__pic-container{
     margin: auto 0 auto 10rem;
-}
+}*/
 .profile-pic{
     float: inline-start;
     height: 400px;
@@ -217,6 +217,7 @@ btn-color-1:hover, .btn-color-2{
 /*About Section*/
 #about{
     position: relative;
+    height: 80vh;
 }
 .about-containers{
     gap: 2rem;
@@ -235,7 +236,7 @@ btn-color-1:hover, .btn-color-2{
     width: 400px;
     border: none;
     border-radius: 2rem;
-    margin-left: -8rem;
+    margin-left: -2rem;
     margin-right: 2rem;
     margin-top: 4rem;
 }
@@ -259,11 +260,11 @@ btn-color-1:hover, .btn-color-2{
     gap: 4rem;
     height: 80%;
 }
-.section__pic-container {
+/*.section__pic-container {
     height: 400x;
     width: 400px;
     margin: auto 0;
-}
+}*/
 
 /*Experience Section*/
 #experience{
@@ -376,10 +377,11 @@ article  .icon{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 70vh;
+    height: 35vh;
 }
 .contact-info-container{
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     border-radius: 2rem;
