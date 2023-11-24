@@ -10,7 +10,7 @@
     
 }
 
-@media screen and (min-width: 500px) and (max-width:990px) {
+@media screen and (min-width: 600px) and (max-width:990px) {
     #desktop-nav{
         display: none;
     }
@@ -181,7 +181,7 @@ footer li{
 
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     #desktop-nav{
         display: none;
     }
@@ -208,7 +208,7 @@ footer li{
         margin-bottom: -8rem;
     }
     #about{
-        height: 140vh;
+        height: 150vh;
         display: flex;
         flex-direction: column;
         margin-top: -3rem;
@@ -246,7 +246,7 @@ footer li{
     }
 
     #experience{
-        height: 275vh;
+        height: 260vh;
     }
     
      #experience .section__text__p1{
@@ -273,7 +273,7 @@ footer li{
     }
     
     #education{
-        height: 100vh;
+        height: 95vh;
     }
     
   #education .section__text__p1{
@@ -295,7 +295,7 @@ footer li{
 }
 
 #project{
-   height: 240vh;
+   height: 230vh;
    display: flex;
    flex-direction: column;
    margin-bottom: 1rem;
