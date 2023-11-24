@@ -10,7 +10,7 @@
     
 }
 
-@media screen and (min-width: 600px) and (max-width:990px) {
+@media screen and (min-width: 500px) and (max-width:990px) {
     #desktop-nav{
         display: none;
     }
@@ -181,7 +181,7 @@ footer li{
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     #desktop-nav{
         display: none;
     }
