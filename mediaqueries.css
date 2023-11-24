@@ -40,7 +40,7 @@
         height: 125vh;
         display: flex;
         flex-direction: column;
-        margin-top: -6rem;
+        margin-top: -12rem;
     }
     #about .title{
         font-size: 1rem;
