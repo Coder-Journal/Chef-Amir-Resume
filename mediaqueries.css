@@ -277,9 +277,10 @@ footer{
 }
 
 #project{
-   height: 175vh;
+   height: 170vh;
    display: flex;
    flex-direction: column;
+   margin-bottom: 1rem;
 }
 
 #project .section__text__p1{
@@ -308,7 +309,8 @@ footer{
     padding: 10px; 
 }
 #contact{
-    height: 18vh;
+    display: flex;
+    flex-direction: column;
     width: max-content;
     margin-left: 0.5rem;
 }
@@ -318,13 +320,16 @@ footer{
 #contact .contact-info-container{
     margin-left: 10px;
 }
-footer li{
-    font-size: 0.9rem;
-}
 footer{
     height: 55vh;
     margin-top: -5rem;
-    padding: 10px;
-    font-size: 1rem;
 }
+footer li{
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    font-size: 0.9rem;
+    
+}
+
 }
