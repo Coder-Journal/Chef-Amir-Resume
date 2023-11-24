@@ -9,7 +9,7 @@
     }
     
 }
-/*@media screen and (min-width: 600px) and (max-width:1200px){
+@media screen and (min-width: 670px) and (max-width:1200px){
     #desktop-nav{
         display: none;
     }
@@ -21,7 +21,7 @@
         height: 60vh;
         display: flex;
         flex-direction: column;
-        margin-top: 8rem;
+        margin-top: 5rem;
         margin-left: 1.5rem;
      }
      #profille, .section-container {
@@ -171,24 +171,18 @@ footer{
     padding: -5px;
     font-size: 14px;
 }
-}*/
+}
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 670px) {
     #desktop-nav{
         display: none;
     }
      #hamburger-nav{
         display: flex;
      }
-
-     .section__pic-container{
-        width: 275px;
-        height: 275px;
-        margin: 0 auto 2rem;
-    }
     
      #profile{
-        height: 55vh;
+        height: 60vh;
         display: flex;
         flex-direction: column;
         margin-top: 8rem;
@@ -203,9 +197,10 @@ footer{
         margin-bottom: -6rem;
     }
     #about{
-        height: 100vh;
+        height: 140vh;
         display: flex;
         flex-direction: column;
+        margin-top: 10rem;
     }
     
     #about .title{
@@ -217,11 +212,11 @@ footer{
     #about .about-pic{
         width: 350px;
         height: 350px;
-       margin-left: -11rem;
+       margin-left: -10.5rem;
     }
    
     #about .about-details-container{
-        margin-top: 10rem;
+        margin-top: 1rem;
     }
 
     #about .details-container{
@@ -233,10 +228,10 @@ footer{
     #about .text-container{
         font-size: 14px;
         width: max-content;
-        margin-left: -11rem; 
+        margin-left: -9.5rem; 
     }
     #experience{
-        height: 195vh;
+        height: 270vh;
     }
     
      #experience .section__text__p1{
@@ -259,14 +254,14 @@ footer{
         flex-direction: column;
         width: 320px;
         float: left;
-        margin-left: -10rem;
+        margin-left: -9.5rem;
        }
     
     .arrow {
         display: none;
     }
     #education{
-        height: 70vh;
+        height: 100vh;
     }
     
   #education .section__text__p1{
@@ -283,12 +278,12 @@ footer{
     flex-direction: column;
     justify-content: center;
     width: 350px;
-    margin-left: -11rem;
+    margin-left: -10.5rem;
     margin-top: 0.5rem;
 }
 
 #project{
-   height: 70vh;
+   height: 80vh;
    display: flex;
    flex-direction: column;
 }
@@ -310,7 +305,7 @@ footer{
     gap: 10px;
 }
 #project .details-container{
-    margin-right: 0.5rem;
+    margin-right: -1rem;
 }
 #project img{
     width: 330px;
@@ -318,7 +313,8 @@ footer{
     padding: 10px; 
 }
 #contact{
-    margin-top: 60rem;
+    height: 45vh;
+    margin-top: 65rem;
     width: max-content;
     margin-left: 0.5rem;
 }
@@ -332,7 +328,7 @@ footer li{
     font-size: 0.9rem;
 }
 footer{
-    height: 55vh;
+    height: 40vh;
     margin-top: -6rem;
     padding: 10px;
     font-size: 1rem;
