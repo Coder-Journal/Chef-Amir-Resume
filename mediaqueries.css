@@ -9,7 +9,7 @@
     }
     
 }
-@media screen and (min-width: 670px) and (max-width:1200px){
+/*@media screen and (min-width: 670px) and (max-width:1200px){
     #desktop-nav{
         display: none;
     }
@@ -18,15 +18,12 @@
      }
     
      #profile{
-        height: 60vh;
+        height: 30vh;
         display: flex;
         flex-direction: column;
-        margin-top: 5rem;
-        margin-left: 1.5rem;
+        margin-left: 3.5rem;
      }
-     #profille, .section-container {
-        display: block;
-    }
+    
      .profile-pic{
         width: 275px;
         height: 275px;
@@ -96,13 +93,6 @@
     .arrow {
         display: none;
     }
-   
-    
-    .section__pic-container{
-        width: 275px;
-        height: 275px;
-        margin: 0 auto 2rem;
-    }
     
   #education{
     margin-top: 75rem;
@@ -171,7 +161,7 @@ footer{
     padding: -5px;
     font-size: 14px;
 }
-}
+}*/
 
 @media screen and (max-width: 670px) {
     #desktop-nav{
@@ -180,58 +170,65 @@ footer{
      #hamburger-nav{
         display: flex;
      }
-    
+
+     .arrow {
+        display: none;
+    }
+
      #profile{
         height: 60vh;
         display: flex;
         flex-direction: column;
-        margin-top: 8rem;
+        margin-top: 5rem;
         margin-left: 1.5rem;
      }
-     #profille, .section-container {
-        display: block;
-    }
+
      .profile-pic{
         width: 275px;
         height: 275px;
-        margin-bottom: -6rem;
+        margin-left: 1rem;
+        margin-bottom: -8rem;
     }
     #about{
-        height: 140vh;
+        height: 100vh;
         display: flex;
         flex-direction: column;
-        margin-top: 10rem;
+        margin-top: -3rem;
     }
-    
     #about .title{
         font-size: 1rem;
         margin-left: -4rem;
         text-align: justify;
         width: max-content;
     }
+
+    #about .section-container {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
     #about .about-pic{
         width: 350px;
         height: 350px;
-       margin-left: -10.5rem;
-    }
-   
-    #about .about-details-container{
-        margin-top: 1rem;
+       margin-left: -9.8rem;
     }
 
-    #about .details-container{
-        margin-bottom: 1rem;
-    }
     #about .about-containers {
         margin-left: -5rem;
     }
+    #about .details-container{
+        margin-bottom: 1rem;
+    }
+
     #about .text-container{
         font-size: 14px;
         width: max-content;
         margin-left: -9.5rem; 
     }
+
     #experience{
-        height: 270vh;
+        height: 198vh;
     }
     
      #experience .section__text__p1{
@@ -244,33 +241,30 @@ footer{
         text-align: justify;
         width: max-content;
     }
-    #experience .details-container{
-        margin-bottom: 1rem;
+    #experience .about-containers{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
     }
 
     #experience .details-container{
-        position: relative;
-        display: flex;
-        flex-direction: column;
         width: 320px;
         float: left;
-        margin-left: -9.5rem;
-       }
-    
-    .arrow {
-        display: none;
+        margin-left: -9rem;
+        margin-bottom: 1rem;
     }
+    
     #education{
-        height: 100vh;
+        height: 70vh;
     }
     
   #education .section__text__p1{
-    margin-left: -3rem;
+    margin-left: -2rem;
   }
 
 #education .title{
     font-size: 2rem;
-    margin-left: -7rem;
+    margin-left: -5rem;
 }
 
 #education .details-container{
@@ -278,43 +272,43 @@ footer{
     flex-direction: column;
     justify-content: center;
     width: 350px;
-    margin-left: -10.5rem;
+    margin-left: -10rem;
     margin-top: 0.5rem;
 }
 
 #project{
-   height: 80vh;
+   height: 175vh;
    display: flex;
    flex-direction: column;
 }
 
 #project .section__text__p1{
-    margin-left: -3rem;
+    margin-left: -1rem;
     width: max-content;
   }
 #project .title{
     font-size: 2rem;
-    margin-left: -4rem;
+    margin-left: -2rem;
+}
+
+#project .details-container{
+    display: flex;
+    flex-direction: column;
+    margin-right: -0.2rem;
 }
 
 #project .article-container{
-    display: flex;
-    flex-direction: column;
     width: 350px;
     height: 350px;
-    gap: 10px;
 }
-#project .details-container{
-    margin-right: -1rem;
-}
+
 #project img{
     width: 330px;
     height: 330px;
     padding: 10px; 
 }
 #contact{
-    height: 45vh;
-    margin-top: 65rem;
+    height: 18vh;
     width: max-content;
     margin-left: 0.5rem;
 }
@@ -328,8 +322,8 @@ footer li{
     font-size: 0.9rem;
 }
 footer{
-    height: 40vh;
-    margin-top: -6rem;
+    height: 55vh;
+    margin-top: -5rem;
     padding: 10px;
     font-size: 1rem;
 }
