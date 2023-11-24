@@ -9,7 +9,7 @@
     }
     
 }
-@media screen and (min-width: 600px) and (max-width:1200px){
+/*@media screen and (min-width: 600px) and (max-width:1200px){
     #desktop-nav{
         display: none;
     }
@@ -171,7 +171,7 @@ footer{
     padding: -5px;
     font-size: 14px;
 }
-}
+}*/
 
 @media screen and (max-width: 600px) {
     #desktop-nav{
@@ -332,7 +332,7 @@ footer li{
     font-size: 0.9rem;
 }
 footer{
-    height: 25vh;
+    height: 55vh;
     margin-top: -6rem;
     padding: 10px;
     font-size: 1rem;
