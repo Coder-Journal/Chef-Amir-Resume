@@ -37,7 +37,7 @@
         margin-bottom: -8rem;
     }
     #about{
-        height: 175vh;
+        height: 165vh;
         display: flex;
         flex-direction: column;
         margin-top: -3rem;
@@ -75,7 +75,7 @@
     }
 
     #experience{
-        height: 250vh;
+        height: 230vh;
     }
     
      #experience .section__text__p1{
@@ -102,7 +102,7 @@
     }
     
     #education{
-        height: 90vh;
+        height: 80vh;
     }
     
   #education .section__text__p1{
@@ -124,7 +124,7 @@
 }
 
 #project{
-   height: 220vh;
+   height: 200vh;
    display: flex;
    flex-direction: column;
    margin-bottom: 1rem;
@@ -168,7 +168,7 @@
     margin-left: 10px;
 }
 footer{
-    height: 20vh;
+    height: 22vh;
     margin-top: -5rem;
 }
 footer li{
